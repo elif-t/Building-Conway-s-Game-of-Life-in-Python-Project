@@ -53,3 +53,10 @@ class GameOfLife(object):
         pass
 ```
 
+You might’ve noticed the pass keyword. pass is a unique statement in Python that does nothing. It can be used as a placeholder for future code. Nothing happens when the pass statement is executed, but you avoid getting an error when empty code is not allowed. In the context of this project, it's used in the class skeleton to indicate where you need to add your method implementations.
+
+Your first task is to define the initial state of your GameOfLife class. You must use the provided skeleton as a guide to implement the __init__ method (the class constructor).
+
+In this method, you'll set up the initial game state—an empty grid with dimensions x_dim by y_dim. For this project, we'll represent this grid as a 2D list, with each element being either a 0 or a 1. A 0 illustrates a dead cell, and a 1 represents a live cell. All cells should be dead at the start, so your grid should be filled with zeros.
+
+Good luck with your first step into bringing the Game of Life to... life.

@@ -60,3 +60,6 @@ Your first task is to define the initial state of your GameOfLife class. You mus
 In this method, you'll set up the initial game state—an empty grid with dimensions x_dim by y_dim. For this project, we'll represent this grid as a 2D list, with each element being either a 0 or a 1. A 0 illustrates a dead cell, and a 1 represents a live cell. All cells should be dead at the start, so your grid should be filled with zeros.
 
 Good luck with your first step into bringing the Game of Life to... life.
+
+## 2.Create a Method to Return the Grid
+Now that you have successfully initialized your grid in the constructor, your next task is implementing a method named get_grid() to return this grid. This method is simple yet crucial for accessing the game’s current state outside the class.

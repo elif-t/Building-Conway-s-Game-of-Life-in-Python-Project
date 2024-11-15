@@ -3,18 +3,19 @@
 ## 1. Create the Class and Its __init__ Method
 Conway’s Game of Life is a zero-player game requiring only an initial state and no further input. It occurs on a grid of square cells, each in one of two possible states: live or dead.
 
-IMG_1_1
+![img_1_1](https://github.com/elif-t/Building-Conway-s-Game-of-Life-in-Python-Project/blob/main/img_1_1.png)
 
 Every cell interacts with its eight neighbors (horizontally, vertically, or diagonally adjacent cells).
 
-IMG_1_2
+![img_1_2](https://github.com/elif-t/Building-Conway-s-Game-of-Life-in-Python-Project/blob/main/img_1_2.png)
 
 Starting at the initial state, the neighbors interact according to the following rules:
 
 * Any live cell with two or three live neighbors survives. Otherwise, a cell dies due to loneliness (with no or only one neighbor) or overpopulation (with four or more neighbors).
 * Any dead cell with (exactly) three live neighbors becomes a live cell. A dead cell with any other number of neighbors remains dead.
 
-IMG_1_3
+![img_1_3](https://github.com/elif-t/Building-Conway-s-Game-of-Life-in-Python-Project/blob/main/img_1_3.png)
+
 
 In this project, we will implement Conway’s Game of Life in Python.
 
@@ -67,7 +68,7 @@ Now that you have successfully initialized your grid in the constructor, your ne
 ## 3.Create a Method to Print the Grid
 Your game is starting to take shape. Now that you can create and retrieve your grid, it would be helpful to visualize it. This is where the print_grid() method comes into play. This method will print your current game grid in a user-friendly way, making it easier to track the progress of the game.
 
-IMG_3_1
+![img_1_3](https://github.com/elif-t/Building-Conway-s-Game-of-Life-in-Python-Project/blob/main/img_3_1.png)
 
 ## 4.Create a Method to Populate the Grid
 So far, we’ve created the constructor of our project and implemented a getter that returns the grid object and a print method that prints the grid on the screen.

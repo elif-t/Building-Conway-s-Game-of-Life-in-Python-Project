@@ -101,7 +101,7 @@ Docstrings are a type of comment used at the beginning of functions, methods, cl
 Your task is to add docstrings to each method in your GameOfLife class.
 
 To give you a starting point, note how to document the populate_grid method:
-
+```
 def populate_grid(self, coord):
     '''
     Populates the game grid with live cells at the specified coordinates.
@@ -114,6 +114,7 @@ def populate_grid(self, coord):
     '''
     # Given a list of 2D coordinates (represented as tuples/lists with 2 elements each),
     # set the corresponding elements in your grid to 1.
+```
 In this docstring, the first line briefly describes what the method does. The Parameters section lists the input parameters and their types and explains what they represent. The Returns section describes what the function returns.
 
 Add similar docstrings to the rest of the methods in your GameOfLife class. Remember, good documentation makes your code more accessible and maintainable for others and your future self. Explain clearly what the method or class does without explaining how it works. The reader can look at the code for that information.

@@ -63,3 +63,15 @@ Good luck with your first step into bringing the Game of Life to... life.
 
 ## 2.Create a Method to Return the Grid
 Now that you have successfully initialized your grid in the constructor, your next task is implementing a method named get_grid() to return this grid. This method is simple yet crucial for accessing the game’s current state outside the class.
+
+## 3.Create a Method to Print the Grid
+Your game is starting to take shape. Now that you can create and retrieve your grid, it would be helpful to visualize it. This is where the print_grid() method comes into play. This method will print your current game grid in a user-friendly way, making it easier to track the progress of the game.
+
+IMG_3_1
+
+## 4.Create a Method to Populate the Grid
+So far, we’ve created the constructor of our project and implemented a getter that returns the grid object and a print method that prints the grid on the screen.
+
+The next task is to implement the populate_grid() method, which allows you to initialize the game state by specifying which cells in the grid should start as ‘alive’ (represented by a 1). This will help set the stage for the Game of Life. The method should take the argument coord which is a list of tuples, where each tuple represents the coordinates [in the format (row, column)] of a cell that should be marked as ‘alive.’
+
+Note that this is the only instance of the game where we can intervene and change the outcome by choosing which cells on the grid start as alive and which ones as dead. After executing this step, the initial state evolves according to the game’s rules, and no further user input is required.
